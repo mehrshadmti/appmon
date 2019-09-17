@@ -22,7 +22,7 @@ from termcolor import colored
 import database as db
 import platform as platform_module
 
-print """
+print("""
      ___      .______   .______   .___  ___.   ______   .__   __. 
     /   \     |   _  \  |   _  \  |   \/   |  /  __  \  |  \ |  | 
    /  ^  \    |  |_)  | |  |_)  | |  \  /  | |  |  |  | |   \|  | 
@@ -31,7 +31,7 @@ print """
 /__/     \__\ | _|      | _|      |__|  |__|  \______/  |__| \__| 
                         github.com/dpnishant
                                                                   
-"""
+""")
 
 app = Flask(__name__, static_url_path='/static')
 #app.debug = True
